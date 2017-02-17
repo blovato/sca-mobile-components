@@ -20,7 +20,7 @@
     "react-native",
     "ui",
     "components",
-    "react-component",
+    "react-component"
   ],
   "license": "MIT",
   "bugs": {
