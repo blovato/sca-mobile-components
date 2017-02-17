@@ -1,7 +1,7 @@
 {
-  "name": "react-native-material-ui",
+  "name": "sca-mobile-components",
   "version": "1.7.0",
-  "description": "React Native Material Design Components",
+  "description": "React Native Shop.co Components",
   "main": "./index.js",
   "scripts": {
     "test": "jest",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xotahal/react-native-material-ui"
+    "url": "https://github.com/blovato/sca-mobile-components"
   },
   "jest": {
     "preset": "react-native",
@@ -18,18 +18,14 @@
   },
   "keywords": [
     "react-native",
-    "material",
-    "design",
     "ui",
     "components",
     "react-component",
-    "android"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xotahal/react-native-material-ui/issues"
+    "url": "https://github.com/blovato/sca-mobile-components/issues"
   },
-  "homepage": "https://github.com/xotahal/react-native-material-ui",
   "dependencies": {
     "color": "^1.0.3",
     "lodash.merge": "^4.0.0",
