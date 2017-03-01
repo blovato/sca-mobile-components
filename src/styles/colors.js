@@ -1,3 +1,72 @@
+
+// Shop.co Colors
+export const paleblue = '#e6f3ff';
+export const lightblue = '#5fbcea';
+export const mediumblue = '#0074ad';
+export const deepmediumblue = '#1f5084';
+export const darkblue = '#232f3e';
+export const deepdarkblue = '#1b2530';
+export const greyblue = '#50677c';
+export const green = '#60bd6d';
+export const teal = '#00a49a';
+export const yellow = '#fdcf41';
+export const orange = '#f38b3b';
+export const red = '#cc4855';
+export const palegrey = '#f5f5f5';
+export const lightgrey = '#8d8d8d';
+export const mediumgrey = '#6c7679';
+export const darkgrey = '#3f3f3f';
+export const darkblack = 'rgba(0, 0, 0, 0.87)';
+export const lightblack = 'rgba(0, 0, 0, 0.54)';
+export const mediumblack = 'rgba(0, 0, 0, 0.26)';
+export const faintblack = 'rgba(0, 0, 0, 0.12)';
+export const mediumwhite = 'rgba(255, 255, 255, 0.87)';
+export const lightwhite = 'rgba(255, 255, 255, 0.54)';
+export const iconlightgrey = '#c4c4c4';
+export const icondarkgrey = '#6d6d6d';
+export const systemgrey = '#e0e0e0';
+
+
+// Shop.co Palette
+export const brandColor = mediumblue;
+export const logolightColor = lightblue;
+export const menuIconColor = paleblue;
+export const editColor = mediumblue;
+export const linkColor = mediumblue;
+export const productColor = mediumblue;
+export const processingColor = mediumblue;
+export const successColor = green;
+export const notificationColor = teal;
+export const favoriteColor = teal;
+export const unreadColor = orange;
+export const alertColor = orange;
+export const errorColor = red;
+export const warningColor = red;
+export const removeColor = red;
+export const extensionColor = darkblue;
+export const defaulttextColor = darkgrey;
+export const whiteColor = white;
+export const lightTextColor = lightgrey;
+export const neutralColor = lightgrey;
+export const greySectionColor = palegrey;
+export const primary1Color = mediumblue;
+export const primary2Color = logolightColor;
+export const primary3Color = darkgrey;
+export const accent1Color = red;
+export const accent2Color = palegrey;
+export const accent3Color = lightgrey;
+export const textColor = darkgrey;
+export const secondaryTextColor = lightgrey;
+export const alternateTextColor = white;
+export const canvasColor = white;
+export const borderColor = systemgrey;
+export const disabledColor = palegrey;
+export const pickerHeaderColor = mediumblue;
+export const clockCircleColor = darkgrey;
+export const shadowColor = black;
+export const greybtnColor = iconlightgrey;
+
+// Material UI colors
 export const red50 = '#ffebee';
 export const red100 = '#ffcdd2';
 export const red200 = '#ef9a9a';

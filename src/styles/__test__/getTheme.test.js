@@ -1,6 +1,5 @@
 import getTheme from '../getTheme';
 
-import { red500 } from '../colors';
 
 const uiTheme = {
     palette: {
