@@ -1,52 +1,22 @@
 {
-  "name": "sca-mobile-components",
-  "version": "1.7.0",
-  "description": "React Native Shop.co Components",
-  "main": "./index.js",
+  "name": "MobileComponents",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "jest",
-    "lint": "eslint ./"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/blovato/sca-mobile-components"
-  },
-  "jest": {
-    "preset": "react-native",
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
-  },
-  "keywords": [
-    "react-native",
-    "ui",
-    "components",
-    "react-component"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/blovato/sca-mobile-components/issues"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
-    "color": "^1.0.3",
-    "lodash.merge": "^4.0.0",
-    "react-native-material-design-styles": "^0.2.6",
-    "react-native-vector-icons": "3.0.0"
+    "react": "15.4.2",
+    "react-native": "0.42.0"
   },
   "devDependencies": {
-    "babel-core": "^6.14.0",
-    "babel-eslint": "^7.1.1",
-    "babel-jest": "^17.0.2",
-    "babel-polyfill": "^6.13.0",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react-native": "^1.9.0",
-    "eslint": "^3.11.1",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "2.2.3",
-    "eslint-plugin-react": "^6.8.0",
-    "jest": "^17.0.3",
-    "react": "^15.4.1",
-    "react-native": "^0.39.2",
-    "react-test-renderer": "^15.4.1"
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
