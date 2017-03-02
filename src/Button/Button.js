@@ -1,8 +1,18 @@
 import React, { PropTypes } from 'react';
-import { Button } from 'react-native';
+import All from 'react-native';
+import { button } from './Button.style';
 
-export default function Button(props) {
+export default function Button({ title, onPress }) {
   return (
-    <Button />
+    <All.Button {...{ title, onPress }} style={button} />
   )
 }
+Button.propTypes = {
+  title: PropTypes.string.isRequired,
+  onPress: PropTypes.func.isRequired,
+};
+
+Button.defaultProps = {
+  title: "Button",
+  onPress: () => console.log('button clicked'),
+};

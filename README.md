@@ -7,30 +7,15 @@
 
   `$ npm install`
 
-2. start react storybook:
+2. run tests with [jest](https://facebook.github.io/jest/docs/getting-started.html):
 
-  `$ npm run storybook`
-
-3. start emulator or device:
-
-  `$ react-native run-ios`
-
-  or
-
-  `$ react-native run-android`
-
-### React Storybook
-
-> We are using react native [storybook](https://getstorybook.io) for visual testing
-
-### TDD
-
-> Write tests for each component using [jest](https://facebook.github.io/jest/docs/getting-started.html)
+  `$ npm test`
 
 ### Components:
 
 #### Todo:
 
+- [ ] Button
 - [ ] Loading
 - [ ] BasketItem
 - [ ] Modal/Dialog
