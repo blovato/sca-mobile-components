@@ -41,6 +41,7 @@ android/app/src/main/res
 log.android
 .idea
 webpack-assets.json
+__snapshots__/
 *report*
 
 yarn.lock
